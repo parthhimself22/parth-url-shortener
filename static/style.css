@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+.container{
+    margin-top: 150px;
+    /* width: 384px; */
+    margin-left: auto;
+    margin-right: auto;
+
+} 
+
+#heading1{
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 3em;
+    color: rgb(255 189 189)
+}
+
+#heading2{
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 1em;
+    color: rgb(255 189 189)
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+.element{
+    margin: 15px;
+    border-radius: 5px;
+    padding: 20px;
+    outline: none;
+}
+
+.parametercss {
+    border-color: rgb(255 189 189);
+    width: fit-content;
+    border-style: groove;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parametercss:hover {
+    background-color: rgba(255, 189, 189, 0.2);
+  }
+
+/* #parameter:link {
+    text-decoration: none; color: rgb(255 189 189);
+} */
+
+
+
+/* bg */
+body {
+	background-color: #373737;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+canvas {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+/* .container {
+    position: absolute;
+    z-index: 0;
+} */
+
+#heading1 {
+    line-height: 25px;
+    animation: slide-up 2s;
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 0.2;
+        line-height: 200px;
+    }
+
+    to {
+        opacity: 1;
+        line-height: 25px;
+    }
+}

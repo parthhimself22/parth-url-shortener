@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    style 
+        include ../static/style.css
+    //- <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <canvas id="c"></canvas>
+    <div class ='container'>
+        <h2 id='heading1'>Enter URL</h2>
+        <form action="/" method="GET"  id="form">
+        <input type="text" class='element' name='myurl'id="url" placeholder="Enter you url">
+        <button class="btn element">Submit</button>
+        <div>
+            //- <hr>
+            <span id='heading2' class='element'></span>
+        </div>
+        </form>
+        <div id="copyLink" style="text-align: center">
+            <span class='element' id ='parameter'> </span>
+        </div>
+    </div>
+    
+    script(src="../static/index.js")
+    //- <script src="../static/index.js"></script>
+</body>
+</html>
